@@ -17,8 +17,11 @@ export default function Layout({ children }) {
           <header className="bg-gray-900 dark:bg-gray-800 text-white py-4 px-4">
             <nav className="flex items-center">
               <div>
-                <Link className="text-white border-b-2 border-transparent hover:text-gray-300 hover:border-gray-300" href="/about">
+                <Link className="text-white border-b-2 border-transparent hover:text-gray-300 mx-2 hover:border-gray-300" href="/about">
                   About Page
+                </Link>
+                <Link className="text-white border-b-2 border-transparent hover:text-gray-300 mx-2 hover:border-gray-300" href="/testpath?test=Hello">
+                  Test Path
                 </Link>
               </div>
             </nav>
